@@ -61,7 +61,7 @@ window.addEventListener('resize', function (e) {
 const wheelIt = document.querySelector("section")
     
 window.addEventListener("wheel", function() {
-    wheelIt.style.transform = "rotate("+window.pageYOffset+"deg)";
+    wheelIt.style.transform = "rotate(-"+window.pageYOffset+"deg)";
     
 });
 // para.addEventListener('onselect', function(event){
